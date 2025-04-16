@@ -19,9 +19,10 @@ fetch('data.geojson')
     }).addTo(map);
   });
 
-// Example image overlay (optional)
-var imageBounds = [[40.70, -74.02], [40.72, -73.99]];
+
+  var imageBounds = [[40.59, -105.08], [40.61, -105.06]];
 L.imageOverlay('overlay.png', imageBounds).addTo(map);
+
 
 
 // Example heatmap points: [lat, lng, intensity (optional)]
