@@ -1,9 +1,9 @@
 // Initialize the map centered on Colorado
 var map = L.map('map').setView([39.5501, -105.7821], 7); // Center of Colorado
 
-// Add Esri satellite basemap
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-  attribution: 'Tiles © Esri'
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
 // Generate a bunch of heatmap points across Colorado
