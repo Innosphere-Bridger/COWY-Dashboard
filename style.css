@@ -1,19 +1,21 @@
-body {
-    margin: 0;
-    padding: 0;
-  }
-  #map {
-    width: 80vh;
-    height: auto;
-    margin: 0 auto;
-    bottom: 2px solid #000;
-  }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+/* Page title styling */
+h1 {
+  text-align: center;
+  margin: 10px 0 10px;
+  font-size: 28px;
+  color: #333;
+}
+/* make the map container fill 80% of the viewport */
+#map {
+  width: 80vw;
+  height: 80vh;
+  margin: 25px auto; 
+  border: 3px solid #000;
+}
 
-  /* Optional: Make the map look a bit nicer on smaller screens */
-@media (max-width: 768px) {
-    #map {
-      width: 100vh;        /* Full width on smaller screens */
-      height: 75vh;      /* Smaller height on mobile/tablet */
-    }
-  }
-  
