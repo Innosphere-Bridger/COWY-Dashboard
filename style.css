@@ -3,8 +3,8 @@ body {
     padding: 0;
   }
   #map {
-    width: 80%;
-    height: 80%;
+    width: 80vh;
+    height: auto;
     margin: 0 auto;
     bottom: 2px solid #000;
   }
@@ -12,8 +12,8 @@ body {
   /* Optional: Make the map look a bit nicer on smaller screens */
 @media (max-width: 768px) {
     #map {
-      width: 100%;        /* Full width on smaller screens */
-      height: 75%;      /* Smaller height on mobile/tablet */
+      width: 100vh;        /* Full width on smaller screens */
+      height: 75vh;      /* Smaller height on mobile/tablet */
     }
   }
   
