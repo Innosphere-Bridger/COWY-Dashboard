@@ -1,4 +1,3 @@
-
 // Initialize the map centered on Colorado
 var map = L.map('map').setView([39.5501, -105.7821], 7); // Center of Colorado
 
